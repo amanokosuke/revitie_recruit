@@ -1,0 +1,82 @@
+@charset "UTF-8";
+article{
+  width:100%;
+  height:auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding:20px 5px;
+}
+.interview{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content:space-around;
+}
+.interview h2{
+  font-size:1.6em;
+}
+.interview h3{
+  padding 2px 20px;
+  font-weight: lighter;
+  font-size:1.2em;
+  margin:0 auto;
+  color:#2b8a12;
+}
+.interview .border{
+  width:120px;
+  border-bottom: solid 1px #000;
+}
+.member_title{
+  /* background: red; */
+  padding:20px;
+}
+.interview .member_title h2{
+  color:#2b8a12;
+  font-size:2em;
+  font-weight: lighter;
+  letter-spacing: 0.2em;
+
+}
+.interview .member_title .border{
+  border-bottom:solid 1px #2b8a12;
+}
+.member_list{
+  display: flex;
+  /* background: green; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.member_list h2{
+  margin-top:10px;
+}
+.member{
+  width:300px;
+  height:400px;
+  margin:20px;
+  box-shadow: 0px 0px 10px gray;
+  /* background: yellowgreen; */
+}
+.member:hover{
+  opacity: 0.6;
+}
+.member img{
+  display: block;
+  width:100%;
+  height:300px;
+  background:yellowgreen;
+}
+.member a{
+  text-decoration: none;
+}
+.member a:link{
+  color:black;
+}
+.member a:visited{
+  color:black;
+}
+.member a:hover{
+  color:black;
+}
+.member a:active{
+  color:black;
+}

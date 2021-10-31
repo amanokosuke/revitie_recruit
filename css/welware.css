@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+section{
+  padding:3%;
+}
+.welware_title{
+  width:800px;
+  height:70px;
+  margin:0 auto;
+  background:green;
+  border-radius: 1em;
+  text-align: center;
+  line-height: 70px;
+  color:white;
+  font-weight: lighter;
+}
+
+.welware_list{
+  margin:0 auto;
+  width:1000px;
+  height:auto;
+  padding:50px 0;
+}
+.welware_list li{
+  padding:10px 0;
+}
+.welware_list h3{
+  font-size:1.3em;
+  color:green;
+  font-weight: lighter;
+}
+.welware_list p{
+  margin-top:10px;
+}
+
+@media screen and (max-width:1000px) {
+
+.welware_title{
+  width:100%;
+}
+.welware_list {
+  width:100%;
+}
+}

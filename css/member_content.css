@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+img{
+  display: block;
+}
+
+.profile{
+  width:100%;
+  max-width: 1400px;
+  height:500px;
+  /* background:yellowgreen; */
+  margin:0 auto;
+  margin-top:55px;
+  position: relative;
+}
+.profile img{
+  width:800px;
+  height:500px;
+  /* background:blue; */
+  margin-left:30%;
+  /* max-width: 100%; */
+}
+.profile_contena{
+  width:500px;
+  height:auto;
+  background: #222;
+  padding:20px;
+  position: absolute;
+  top:50%;
+  color:white;
+  left:10%;
+}
+.profile_contena small{
+  font-size:1em;
+}
+.profile_contena h1{
+  font-size:2em;
+  margin-top:10px;
+}
+.profile_contena p{
+  margin-top:30px;
+  line-height: 1.5em;
+}
+.interview_contena{
+  width:100%;
+  max-width:1400px;
+  display:-webkit-box;
+　display: -webkit-flex;
+　display:-ms-flexbox;
+  display: flex;
+  /* background: orange; */
+  margin:0 auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding:10px;
+}
+.contena_1{
+  width:100%;
+  justify-content: space-around;
+  display: flex;
+　display: -webkit-flex;
+
+  margin:70px auto 0;
+}
+.contena_1 .photo{
+  width:600px;
+  height:400px;
+  /* background: pink; */
+}
+.contena_1 .interview{
+  width:450px;
+}
+.interview h2{
+  color:green;
+}
+.interview p{
+  margin-top:30px;
+  line-height: 1.6em;
+}
+.contena_2{
+    width:100%;
+    justify-content: space-around;
+    display: flex;
+　　display: -webkit-flex;
+    margin:70px auto 0;
+
+}
+.contena_2 .photo{
+  width:600px;
+  height:400px;
+  /* background: pink; */
+}
+.contena_2 .interview{
+  width:450px;
+}
+.contena_3{
+  margin:70px auto;
+}
+.last_photo{
+  width:100%;
+  height:auto;
+  /* background: pink; */
+}
+.last_photo img{
+  width:800px;
+  height:500px;
+  margin:0 auto;
+}
+
+@media screen and (max-width:1024px) {
+
+  .profile{
+    width:100%;
+  }
+  .profile img{
+    margin:0 auto;
+  }
+
+  .profile_contena{
+    width:80%;
+    top:90%;
+    left:10%;
+  }
+  .interview_contena{
+    margin-top:200px;
+  }
+  .contena_1{
+    flex-direction: column;
+  }
+  .contena_1 .interview{
+    width:100%;
+    margin-top: 50px;
+  }
+  .contena_1 .photo{
+    margin:0 auto;
+  }
+  .contena_2{
+    flex-direction: column;
+  }
+  .contena_2 .photo{
+    -webkit-order:1;
+  　　order:1;
+  margin:0 auto;
+  }
+  .contena_2 .interview{
+    width:100%;
+    -webkit-order:2;
+  　order:2;
+    margin-top:50px;
+  }
+}
+@media screen and (max-width:480px) {
+  .profile{
+    width:100%;
+    height:auto;
+  }
+  .profile img{
+    width:100%;
+    height:auto;
+  }
+
+  .profile_contena{
+    width:100%;
+    top:100%;
+    left:0%;
+  }
+  .contena_1 .photo{
+    width:100%;
+    height:auto;
+    margin-top:100px;
+  }
+  .contena_2 .photo{
+    width:100%;
+    height:auto;
+    margin-top:80px;
+  }
+  h2{
+    font-size:1.2em;
+    line-height: 1.4em;
+  }
+  p{
+    font-size:0.9em;
+  }
+  .last_photo img{
+    width:100%;
+    height:auto;
+  }
+}
